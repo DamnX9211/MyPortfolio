@@ -8,6 +8,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
+interface MetricCardProps {
+  title: string;
+  value: string | number;
+  description: string;
+  icon: React.ElementType;
+  trend?: number;
+}
+
 // Mock analytics data
 const analyticsData = {
   overview: {
@@ -44,7 +52,7 @@ const analyticsData = {
   },
 }
 
-const MetricCard = ({ title, value, description, icon: Icon, trend }) => (
+const MetricCard = ({ title, value, description, icon: Icon, trend }: MetricCardProps) => (
   <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
     <Card>
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
