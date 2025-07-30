@@ -128,34 +128,25 @@ const GitHubStats = () => {
 const Timeline = () => {
   const experiences = [
     {
-      role: "Data Analyst Intern",
-      company: "TechStart Solutions",
-      period: "Jun 2024 - Aug 2024",
+      role: "Data Science and AI Intern",
+      company: "Labmentix",
+      period: "Jun 2025 - July 2025",
       description: "Analyzed customer data using Python and SQL to identify trends and improve business decisions.",
       achievements: [
         "Increased data processing efficiency by 30%",
-        "Created 5+ interactive dashboards",
+        "Created interactive dashboards",
         "Automated reporting workflows",
       ],
       color: "from-blue-500 to-cyan-600",
       type: "internship",
     },
     {
-      role: "Web Development Intern",
-      company: "Digital Agency Co.",
-      period: "Jan 2024 - Mar 2024",
-      description: "Developed responsive websites using React and collaborated with design team.",
-      achievements: ["Built 3 client websites", "Improved page load speed by 25%", "Learned modern web frameworks"],
-      color: "from-green-500 to-emerald-600",
-      type: "internship",
-    },
-    {
-      role: "Bachelor of Computer Science",
-      company: "State University",
-      period: "2021 - 2024",
+      role: "Bachelor of Technology in Biotechnology",
+      company: "National Institute of Technology, Durgapur",
+      period: "2022 - 2026",
       description:
         "Specialized in Data Science and Web Technologies. Relevant coursework in statistics, databases, and programming.",
-      achievements: ["CGPA: 8.2/10", "Data Science Specialization", "Web Development Projects"],
+      achievements: ["CGPA: 6.31/10", "Biotechnogy", "Web Development and data science Projects"],
       color: "from-purple-500 to-pink-600",
       type: "education",
     },
@@ -214,30 +205,23 @@ const Timeline = () => {
 const Certifications = () => {
   const certifications = [
     {
-      name: "Google Data Analytics Certificate",
-      issuer: "Google",
-      date: "2024",
+      name: "AWS-Solutions	Architecture	Job	Simulation",
+      issuer: "Forage",
+      date: "May 2025",
       badge: "/placeholder.svg?height=60&width=60",
-      skills: ["Data Analysis", "SQL", "Tableau", "R"],
+      skills: ["EC2", "S3", "Lambda", "CloudFormation", "VPC"],
     },
     {
-      name: "Python for Data Science",
-      issuer: "IBM",
-      date: "2024",
+      name: "Delloitte Australia Data	Analytics	Job	Simulation	",
+      issuer: "Forage",
+      date: "June 2025",
       badge: "/placeholder.svg?height=60&width=60",
       skills: ["Python", "Pandas", "NumPy", "Matplotlib"],
     },
     {
-      name: "React Developer Certificate",
-      issuer: "Meta",
-      date: "2023",
-      badge: "/placeholder.svg?height=60&width=60",
-      skills: ["React", "JavaScript", "HTML", "CSS"],
-    },
-    {
-      name: "SQL for Data Analysis",
-      issuer: "Coursera",
-      date: "2023",
+      name: "Data Science with Python Certificate",
+      issuer: "Scaler Topics",
+      date: "2025",
       badge: "/placeholder.svg?height=60&width=60",
       skills: ["SQL", "Database Design", "Data Modeling"],
     },
@@ -588,9 +572,16 @@ export default function Portfolio() {
                   { icon: Github, href: "https://github.com/DamnX9211", color: "hover:text-gray-800 dark:hover:text-gray-200" },
                 ].map((social, i) => (
                   <motion.div key={i} whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
-                    <Button variant="outline" size="icon" className={`rounded-full transition-colors ${social.color}`}>
-                      <social.icon className="w-5 h-5" />
-                    </Button>
+                    <a
+                      href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Link to ${social.icon.displayName || social.icon.name || 'social media'}`}
+                    >
+                      <Button variant="outline" size="icon" className={`rounded-full transition-colors ${social.color}`}>
+                        <social.icon className="w-5 h-5" />
+                      </Button>
+                    </a>
                   </motion.div>
                 ))}
               </div>
@@ -1119,7 +1110,7 @@ export default function Portfolio() {
                         </div>
                         <div>
                           <p className="text-sm text-gray-600 dark:text-gray-400">Email</p>
-                          <p className="font-medium">rohit.analyst@gmail.com</p>
+                          <p className="font-medium">rohitkuumar1995@gmail.com</p>
                         </div>
                       </motion.div>
                       <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
@@ -1128,7 +1119,7 @@ export default function Portfolio() {
                         </div>
                         <div>
                           <p className="text-sm text-gray-600 dark:text-gray-400">GitHub</p>
-                          <p className="font-medium">github.com/rohitk-analyst</p>
+                          <p className="font-medium">https://github.com/DamnX9211</p>
                         </div>
                       </motion.div>
                       <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
@@ -1137,7 +1128,7 @@ export default function Portfolio() {
                         </div>
                         <div>
                           <p className="text-sm text-gray-600 dark:text-gray-400">LinkedIn</p>
-                          <p className="font-medium">linkedin.com/in/rohitk-analyst</p>
+                          <p className="font-medium">https://www.linkedin.com/in/rohit-kumar-99abc99/</p>
                         </div>
                       </motion.div>
                     </CardContent>
