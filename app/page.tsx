@@ -316,7 +316,7 @@ export default function Portfolio() {
     {
       title: "Delhivery-Analysis",
       description: "Sales data analysis and visualization dashboard for Delhivery",
-      image: "/Delhivery.png?height=500&width=300",
+      image: "/delhivery.jpg?height=500&width=300",
       tags: ["Python", "Pandas", "Jupyter", "Data Analysis"],
       github: "https://github.com/DamnX9211/Delhivery-Analysis",
       demo: "https://sales-dashboard-demo.streamlit.app",
@@ -336,7 +336,7 @@ export default function Portfolio() {
     {
       title: "Netflix Movies and TVshows Clustring",
       description: "Clustering analysis of Netflix movies and TV shows using K-means",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/netflix.jpg?height=400&width=400",
       tags: ["Python", "Scikit-learn", "Matplotlib", "Seaborn"],
       github: "https://github.com/DamnX9211/Netflix_Movies_and_TVshows_Clustring",
       demo: "https://colab.research.google.com/drive/15MY8n1TeYjjhVz0lMUDWmSQpd78-qw3z?usp=sharing",
@@ -347,12 +347,32 @@ export default function Portfolio() {
     {
       title: "Portfolio Website",
       description: "Personal portfolio website built with Next.js and Tailwind CSS",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/portfolio1.jpg?height=400&width=400",
       tags: ["Next.js", "Tailwind", "Framer Motion", "TypeScript"],
       github: "https://github.com/DamnX9211/My-Portfolio",
       demo: "https://my-portfolio-seven-liart-81.vercel.app/",
       stats: { stars: 12, forks: 3, views: 180 },
       category: "web-development",
+    },
+    {
+      title: "Time Series Analysis of Stock Data",
+      description: "A comprehensive analysis of stock price movements using time series techniques.",
+      image: "/time-series.png?height=400&width=400",
+      tags: ["Python", "Pandas", "Numpy", "Matplotlib", "Seaborn"],
+      github: "https://github.com/DamnX9211/Time_Series_Analysis",
+      demo: "https://github.com/DamnX9211/Time_Series_Analysis/blob/main/Time_Series_Analysis.ipynb",
+      stats: { stars: 1, forks: 3, views: 180 },
+      category: "Data Analysis",
+    },
+    {
+      title: "Tesla Stock Price Financial Analysis",
+      description: " A data analysis project using Python and Pandas to analyze Tesla's stock price and identify trends.",
+      image: "/tesla.jpg?height=400&width=400",
+      tags: ["Python", "Pandas", "Numpy", "Matplotlib", "Seaborn"],
+      github: "https://github.com/DamnX9211/Tesla_Stock_Price_Financial_Analysis",
+      demo: "https://github.com/DamnX9211/Tesla_Stock_Price_Financial_Analysis",
+      stats: { stars: 1, forks: 3, views: 80 },
+      category: "Data Analysis",
     },
   ]
 
