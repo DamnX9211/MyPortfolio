@@ -555,7 +555,7 @@ export default function Portfolio() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                Recent Computer Science graduate passionate about turning data into insights and building user-friendly
+                Final year student at NIT Durgapur, passionate about turning data into insights and building user-friendly
                 web applications. Eager to apply my analytical skills and programming knowledge to solve real-world
                 problems.
               </p>
@@ -581,13 +581,14 @@ export default function Portfolio() {
                 >
                   Tableau
                 </Badge>
+                <Badge
+                  variant="secondary"
+                  className="bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200"
+                >
+                  NextJs
+                </Badge>
               </div>
-              <Button
-                variant="outline"
-                className="w-full rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 border-0"
-              >
-                Download Resume
-              </Button>
+              
             </motion.div>
 
             {/* GitHub Stats */}
