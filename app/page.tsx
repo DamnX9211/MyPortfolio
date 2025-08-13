@@ -314,6 +314,16 @@ export default function Portfolio() {
   // Projects for a fresher data analyst and web developer
   const projects = [
     {
+      title: "Data Alchemist: Forge Your Own AI",
+      description: "An AI-enabled Next.js web application designed to simplify resource allocation and data management.",
+      image: "/data-alchemist.png?height=500&width=300",
+      tags: ["Next.js", "Node.js", "TypeScript", "React"],
+      github: "https://github.com/DamnX9211/Data-Alchemist",
+      demo: "https://data-alchemist-rho-rouge.vercel.app/",
+      stats: { stars: 1, forks: 1, views: 10 },
+      category: "web development",
+    },
+    {
       title: "Delhivery-Analysis",
       description: "Sales data analysis and visualization dashboard for Delhivery",
       image: "/delhivery.jpg?height=500&width=300",
@@ -362,7 +372,7 @@ export default function Portfolio() {
       github: "https://github.com/DamnX9211/Time_Series_Analysis",
       demo: "https://github.com/DamnX9211/Time_Series_Analysis/blob/main/Time_Series_Analysis.ipynb",
       stats: { stars: 1, forks: 3, views: 180 },
-      category: "Data Analysis",
+      category: "data analysis",
     },
     {
       title: "Tesla Stock Price Financial Analysis",
@@ -372,7 +382,7 @@ export default function Portfolio() {
       github: "https://github.com/DamnX9211/Tesla_Stock_Price_Financial_Analysis",
       demo: "https://github.com/DamnX9211/Tesla_Stock_Price_Financial_Analysis",
       stats: { stars: 1, forks: 3, views: 80 },
-      category: "Data Analysis",
+      category: "data analysis",
     },
   ]
 
