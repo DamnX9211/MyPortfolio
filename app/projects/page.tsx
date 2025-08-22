@@ -34,23 +34,23 @@ export default function ProjectsPage() {
 
   // Web development projects
   const allProjects = [
+        {
+          title: "E-commerce Platform",
+          description: "Full-stack e-commerce site built with Next.js, Stripe, and MongoDB",
+          image: "/ecommerce-platform.webp?height=400&width=400",
+          tags: ["Next.js", "MongoDB", "Stripe"],
+          category: "fullstack",
+          github: "https://github.com/tonyb/ecommerce-platform",
+          date: "2023-05-15",
+        },
     {
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce site built with Next.js, Stripe, and MongoDB",
-      image: "/globe.svg?height=400&width=400",
-      tags: ["Next.js", "MongoDB", "Stripe"],
-      category: "fullstack",
-      github: "https://github.com/tonyb/ecommerce-platform",
-      date: "2023-05-15",
-    },
-    {
-      title: "Task Management App",
-      description: "React-based task management application with drag-and-drop functionality",
-      image: "/placeholder.svg?height=400&width=400",
-      tags: ["React", "Redux", "Firebase"],
-      category: "frontend",
-      github: "https://github.com/tonyb/task-manager",
-      date: "2023-02-10",
+      title: "SpeakGenie",
+      description: "React-based voice assistant application",
+      image: "/speak-genie.webp?height=400&width=400",
+      tags: ["NEXT", "AI", "LLM"],
+      category: "Web Development",
+      github: "https://github.com/DamnX9211/SpeakGenie",
+      date: "2025-08-10",
     },
     {
       title: "Weather Dashboard",

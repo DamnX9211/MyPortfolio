@@ -313,6 +313,17 @@ export default function Portfolio() {
 
   // Projects for a fresher data analyst and web developer
   const projects = [
+    
+    {
+      title: "SpeakGenie",
+      description: "An AI-enabled Next.js web application designed to simplify resource allocation and data management.",
+      image: "/speak-genie.webp?height=500&width=300",
+      tags: ["Next.js", "Node.js", "TypeScript", "React"],
+      github: "https://github.com/DamnX9211/SpeakGenie",
+      demo: "https://speak-genie.vercel.app/",
+      stats: { stars: 1, forks: 1, views: 10 },
+      category: "Web Development",
+    },
     {
       title: "Data Alchemist: Forge Your Own AI",
       description: "An AI-enabled Next.js web application designed to simplify resource allocation and data management.",
@@ -321,7 +332,7 @@ export default function Portfolio() {
       github: "https://github.com/DamnX9211/Data-Alchemist",
       demo: "https://data-alchemist-rho-rouge.vercel.app/",
       stats: { stars: 1, forks: 1, views: 10 },
-      category: "web development",
+      category: "Web Development",
     },
     {
       title: "Delhivery-Analysis",
@@ -341,7 +352,7 @@ export default function Portfolio() {
       github: "https://github.com/DamnX9211/Car-Rental",
       demo: "https://car-rental-murex-six.vercel.app/",
       stats: { stars: 18, forks: 5, views: 320 },
-      category: "web-development",
+      category: "Web Development",
     },
     {
       title: "Netflix Movies and TVshows Clustring",
@@ -362,7 +373,7 @@ export default function Portfolio() {
       github: "https://github.com/DamnX9211/My-Portfolio",
       demo: "https://my-portfolio-seven-liart-81.vercel.app/",
       stats: { stars: 12, forks: 3, views: 180 },
-      category: "web-development",
+      category: "Web Development",
     },
     {
       title: "Time Series Analysis of Stock Data",
